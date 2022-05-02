@@ -1,0 +1,35 @@
+/* ## Layout
+
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+### Body Copy
+- Font size (paragraph): 15px
+
+### Font
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+:root {
+	--white: hsl(0, 0%, 100%);
+	--light-gray: hsl(212, 45%, 89%);
+	--gray-blue: hsl(220, 15%, 55%);
+	--dark-blue: hsl(218, 44%, 22%);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	font-size: 15px;
+}
